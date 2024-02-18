@@ -1,17 +1,15 @@
-ServerSide code:
+Server-Side Code:
 
-For running serverside code you need to have ssh certificate 
-To run the program try npm install before running because we removed node modules
+To run server-side code, you'll need an SSH certificate. Before executing the program, ensure you run npm install as we've removed the node_modules directory.
 
-ClientSide Code:
+Client-Side Code:
 
-You can authenticate with any username and password
+You can authenticate with any username and password. However, to execute the authentication API, SSH certification is required. I've commented out that code for your convenience. To view this code, navigate to src/views/auth/index.js.
 
-For viewing code related to receipe go through src/views/admin/receipe folder
+For code related to recipes, explore the src/views/admin/recipe folder.
 
-And for routes routes.js
+Routes are defined in routes.js.
 
-For JWT go to routeGaurd.js
+For JWT implementation, refer to routeGuard.js.
 
-In this project we used chakraui
-and api we used :https://www.themealdb.com/
+In this project, we utilized Chakra UI, and the API we interfaced with is: https://www.themealdb.com/.
